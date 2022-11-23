@@ -1,0 +1,18 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://linked.data.gov.au/def/tern-cv/0c30e871-63ae-4f84-a37c-ef6e7ce02928>
+    a skos:Concept ;
+    dcterms:created "2022-08-05T04:01:37"^^xsd:dateTime ;
+    dcterms:description "A bird occurrence is a sample of a bird (class Aves) at a particular point and time. A bird occurrence may come from an individual or a group." ;
+    dcterms:modified "2022-08-19T00:53:16"^^xsd:dateTime ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/2361dea8-598c-4b6f-a641-2b98ff199e9e> ;
+    skos:definition "An existence of bird sampled at a particular place at a particular time." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "bird-occurrence" ;
+    skos:prefLabel "bird occurrence"@en ;
+    schema:url "https://github.com/ternaustralia/feature-types-vocab/tree/main/vocab_files/bird-occurrence.ttl"^^xsd:anyURI ;
+.
+

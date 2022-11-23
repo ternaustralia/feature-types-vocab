@@ -1,0 +1,18 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://linked.data.gov.au/def/tern-cv/62a51999-f3ca-41d2-8576-3a053dd116a6>
+    a skos:Concept ;
+    dcterms:created "2022-08-05T03:58:45"^^xsd:dateTime ;
+    dcterms:description "A population of birds (vertebrates class Aves) is a collection of individuals belonging to the same bird species, living in the same area." ;
+    dcterms:modified "2022-08-15T03:42:08"^^xsd:dateTime ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/8a68b4a9-167b-40f0-9222-293a2d20ffee> ;
+    skos:definition "Group of individuals of the same bird species (class Aves) living within a given area." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "bird-population" ;
+    skos:prefLabel "bird population"@en ;
+    schema:url "https://github.com/ternaustralia/feature-types-vocab/tree/main/vocab_files/bird-population.ttl"^^xsd:anyURI ;
+.
+

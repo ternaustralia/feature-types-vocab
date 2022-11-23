@@ -1,0 +1,18 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://linked.data.gov.au/def/tern-cv/bc02be3f-6c9c-4abe-bec9-5c2de8497897>
+    a skos:Concept ;
+    dcterms:created "2022-08-23T03:58:52"^^xsd:dateTime ;
+    dcterms:description "An invertebrate occurrence (animals that neither possess nor develop a vertebral column) is a sample of an invertebrate individual or group of invertebrates at a particular point and time." ;
+    dcterms:modified "2022-09-06T00:05:44"^^xsd:dateTime ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/2361dea8-598c-4b6f-a641-2b98ff199e9e> ;
+    skos:definition "An existence of a single invertebrate or group of invertebrates sampled at a particular place at a particular time." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "invertebrate-occurrence" ;
+    skos:prefLabel "invertebrate occurrence"@en ;
+    schema:url "https://github.com/ternaustralia/feature-types-vocab/tree/main/vocab_files/invertebrate-occurrence.ttl"^^xsd:anyURI ;
+.
+

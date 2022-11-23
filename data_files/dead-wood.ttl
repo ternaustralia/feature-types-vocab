@@ -1,0 +1,18 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://linked.data.gov.au/def/tern-cv/a8b1a7fb-b479-48ff-b706-b3cc4691710b>
+    a skos:Concept ;
+    dcterms:modified "2022-11-11T00:13:04"^^xsd:dateTime ;
+    dcterms:source "Rondeux, J., Sanchez, C. Review of indicators and field methods for monitoring biodiversity within national forest inventories. Core variable: Deadwood. Environ Monit Assess 164, 617–630 (2010). https://doi.org/10.1007/s10661-009-0917-6" ;
+    skos:altLabel "dead woody material" ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/2be2d5ce-ca9d-4dff-8e79-948983944f95> ;
+    skos:definition "All non-living woody detritus comprising stems, twigs and roots but excluding deadwood parts of living trees."@en ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "dead-wood" ;
+    skos:prefLabel "dead wood"@en ;
+    schema:url "https://github.com/ternaustralia/feature-types-vocab/tree/main/vocab_files/dead-wood.ttl"^^xsd:anyURI ;
+.
+

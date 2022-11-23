@@ -1,0 +1,18 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://linked.data.gov.au/def/tern-cv/caab05f4-084e-4cd8-b219-199529807d3d>
+    a skos:Concept ;
+    dcterms:created "2021-12-17T03:50:10"^^xsd:dateTime ;
+    dcterms:description "A stem often bears leaves and buds. It is usually above ground, and is more or less negatively geotropic. A shoot axis (PO:0025029) that is the primary axis of a plant." ;
+    dcterms:modified "2022-07-15T03:29:23"^^xsd:dateTime ;
+    skos:definition "A shoot axis that is the primary axis of a plant." ;
+    skos:exactMatch <http://purl.obolibrary.org/obo/PO_0009047> ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "individual-stem" ;
+    skos:prefLabel "plant stem individual"@en ;
+    schema:url "https://github.com/ternaustralia/feature-types-vocab/tree/main/vocab_files/plant-stem-individual.ttl"^^xsd:anyURI ;
+.
+

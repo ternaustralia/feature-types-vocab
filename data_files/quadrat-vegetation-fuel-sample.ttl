@@ -1,0 +1,18 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://linked.data.gov.au/def/tern-cv/e590824a-ab58-4ea4-9026-47f337273f45>
+    a skos:Concept ;
+    dcterms:created "2022-09-19T23:30:58"^^xsd:dateTime ;
+    dcterms:description "Sample of dead or alive plant organic matter characteristics relevant to its flammability using a quadrat." ;
+    dcterms:modified "2022-09-30T03:39:21"^^xsd:dateTime ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/df7fd606-8145-4206-b66e-b86444888802> ;
+    skos:definition "Sample of dead and alive vegetation matter relevant to its flammability using a quadrat." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "quadrat-vegetation-fuel-sample" ;
+    skos:prefLabel "quadrat vegetation fuel sample"@en ;
+    schema:url "https://github.com/ternaustralia/feature-types-vocab/tree/main/vocab_files/quadrat-vegetation-fuel-sample.ttl"^^xsd:anyURI ;
+.
+

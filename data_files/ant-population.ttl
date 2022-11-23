@@ -1,0 +1,18 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://linked.data.gov.au/def/tern-cv/f6e064c6-e2e9-4f9a-90dd-66434a93d985>
+    a skos:Concept ;
+    dcterms:created "2022-04-20T04:18:46"^^xsd:dateTime ;
+    dcterms:description "A population of ants (insects from the family Formicidae) is a collection of individuals belonging to the same ant species, living in the same area." ;
+    dcterms:modified "2022-08-15T03:41:33"^^xsd:dateTime ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/c892f830-4c65-4ac2-a81a-323e2ef42657> ;
+    skos:definition "Group of individuals of the same ant species (family Formicidae) living within a given area." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "ant-population" ;
+    skos:prefLabel "ant population"@en ;
+    schema:url "https://github.com/ternaustralia/feature-types-vocab/tree/main/vocab_files/ant-population.ttl"^^xsd:anyURI ;
+.
+

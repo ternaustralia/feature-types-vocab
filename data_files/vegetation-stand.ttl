@@ -1,0 +1,21 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://linked.data.gov.au/def/tern-cv/1f93a3e8-4c78-4b08-85a4-6869c9ee17ac>
+    a skos:Concept ;
+    dcterms:description "A vegetation stand is a sample of a plant community (see Mueller-Dombois & Ellenberg 1974; Allen & Hoekstra 1992). Usually vegetation stands are selected on the basis of uniformity and discreteness (Van Der Maarel and Franklin, 2013). The vegetation included in the stand looks uniform and should be discernible from surrounding vegetation (Van Der Maarel and Franklin, 2013)." ;
+    dcterms:modified "2021-06-17T02:00:34"^^xsd:dateTime ;
+    dcterms:source
+        "Allen, Timothy FH, and Thomas W. Hoekstra. The confusion between scale‐defined levels and conventional levels of organization in ecology. Journal of vegetation science 1.1 (1990): 5-12." ,
+        "Ellenberg, Dieter, and Dieter Mueller-Dombois. Aims and methods of vegetation ecology. New York: Wiley, 1974." ,
+        "Van Der Maarel, Eddy, and Janet Franklin. Vegetation ecology: historical notes and outline. Vegetation ecology 2 (2013): 1-27." ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/2be2d5ce-ca9d-4dff-8e79-948983944f95> ;
+    skos:definition "Continuos community of plants occupying a specific area and sufficiently uniform in species composition, structure, age, size, class, distribution." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "vegetation-stand" ;
+    skos:prefLabel "vegetation stand" ;
+    schema:url "https://github.com/ternaustralia/feature-types-vocab/tree/main/vocab_files/vegetation-stand.ttl"^^xsd:anyURI ;
+.
+

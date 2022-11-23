@@ -1,0 +1,24 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://linked.data.gov.au/def/tern-cv/df7fd606-8145-4206-b66e-b86444888802>
+    a skos:Concept ;
+    dcterms:created "2021-04-20T04:15:03"^^xsd:dateTime ;
+    dcterms:description "Organic matter provides the fuel for fire. The diversity of types of natural fire is, in part, a result of the corresponding diversity in vegetation and litter (Cornnwell et al., 2015). The fire regime in a place will be dependent on the vegetation fule properties, along wiht climate, weather and ignition sources (Johnson, 1992; Swetnam, 1993). Vegation fuels can be classified into three major categories: crown, surface and ground." ;
+    dcterms:modified "2021-06-17T02:00:09"^^xsd:dateTime ;
+    dcterms:source
+        "Cornwell, William K., et al. Flammability across the gymnosperm phylogeny: the importance of litter particle size. New Phytologist 206.2 (2015): 672-681." ,
+        "Cruz, M.G., Gould, J.S., Hollis, J.J. and McCaw, W., 2018. A Hierarchical classification of wildland fire fuels for Australian vegetation types. Fire, 1(1), p.13." ,
+        "Johnson, Kirk R. Leaf-fossil evidence for extensive floral extinction at the Cretaceous-Tertiary boundary, North Dakota, USA. Cretaceous Research 13.1 (1992): 91-117." ,
+        "Swetnam, Thomas W. Fire history and climate change in giant sequoia groves. Science 262.5135 (1993): 885-889." ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/2be2d5ce-ca9d-4dff-8e79-948983944f95> ;
+    skos:definition "Dead and alive vegetation characteristics relevant to its flammability." ;
+    skos:example "Canopy lenght and load; bark fuels; biomass of dead and live plants on the ground." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "vegetation-fuel" ;
+    skos:prefLabel "vegetation fuel"@en ;
+    schema:url "https://github.com/ternaustralia/feature-types-vocab/tree/main/vocab_files/vegetation-fuel.ttl"^^xsd:anyURI ;
+.
+

@@ -1,0 +1,18 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://linked.data.gov.au/def/tern-cv/2090cfd9-8b6b-497b-9512-497456a18b99>
+    a skos:Concept ;
+    dcterms:created "2021-11-19T00:47:12"^^xsd:dateTime ;
+    dcterms:modified "2021-11-19T00:50:51"^^xsd:dateTime ;
+    dcterms:source <http://purl.obolibrary.org/obo/ENVO_01000739> ;
+    skos:definition "An environmental system which can sustain and allow the growth of an ecological population." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:note "A habitat's specificity to an ecological population differentiates it from other environment classes." ;
+    skos:prefLabel "habitat"@en ;
+    skos:topConceptOf <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    schema:url "https://github.com/ternaustralia/feature-types-vocab/tree/main/vocab_files/habitat.ttl"^^xsd:anyURI ;
+.
+

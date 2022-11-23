@@ -1,0 +1,20 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://linked.data.gov.au/def/tern-cv/6d40d71e-58cd-4f75-8304-40c01fe5f74c>
+    a skos:Concept ;
+    dcterms:created "2021-02-25T01:00:37"^^xsd:dateTime ;
+    dcterms:description "Climate is commonly defined as the weather averaged, or otherwise summarised, over a period of time much longer than the duration of any phenomenon that constitutes weather. The standard averaging period is 30 years, but other periods may be used depending on the purpose." ;
+    dcterms:modified "2021-06-17T01:35:41"^^xsd:dateTime ;
+    skos:definition "Weather conditions averaged over a period of time." ;
+    skos:exactMatch <http://purl.obolibrary.org/obo/ENVO_01001082> ;
+    skos:example "Precipitation, average temperature, minimum temperature." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "climate" ;
+    skos:prefLabel "climate"@en ;
+    skos:topConceptOf <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    schema:url "https://github.com/ternaustralia/feature-types-vocab/tree/main/vocab_files/climate.ttl"^^xsd:anyURI ;
+.
+

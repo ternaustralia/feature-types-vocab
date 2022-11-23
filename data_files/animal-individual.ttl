@@ -1,0 +1,23 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://linked.data.gov.au/def/tern-cv/ecb855ed-50e1-4299-8491-861759ef40b7>
+    a skos:Concept ;
+    dcterms:created "2021-04-21T06:30:18"^^xsd:dateTime ;
+    dcterms:description "An animal indvidual is a physiological independent individual that has some kind of autonomous agency and has a life cycle that allow them to form some kind of reproductive lineages. Operationally, in some cases superorganisms or colonies (e.g. corals) may be considered a special kind of individual." ;
+    dcterms:modified "2021-06-17T01:35:06"^^xsd:dateTime ;
+    dcterms:source "Wilson, Robert A., and Matthew Barker. The biological notion of individual. (2007)." ;
+    skos:broadMatch
+        <http://linkeddata.ge.imati.cnr.it/resource/EARTh/45460> ,
+        <http://www.eionet.europa.eu/gemet/concept/5914> ;
+    skos:definition "Physiologically distinct and independent organism" ;
+    skos:example "A wombat, a bird, a termite, a nematode" ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "animal-individual" ;
+    skos:prefLabel "animal individual"@en ;
+    skos:topConceptOf <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    schema:url "https://github.com/ternaustralia/feature-types-vocab/tree/main/vocab_files/animal-individual.ttl"^^xsd:anyURI ;
+.
+

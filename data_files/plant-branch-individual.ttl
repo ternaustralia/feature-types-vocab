@@ -1,0 +1,18 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://linked.data.gov.au/def/tern-cv/07a75262-f9b7-458d-87ee-28614f535da6>
+    a skos:Concept ;
+    dcterms:created "2021-12-17T03:50:10"^^xsd:dateTime ;
+    dcterms:description "In vascular plants, branches arise from an axillary bud meristem and from divisions of the meristematic apical cell in non-vascular plants." ;
+    dcterms:modified "2022-07-15T03:23:16"^^xsd:dateTime ;
+    skos:definition "A shoot axis that develops from an axillary bud meristem or from equal divisions of a meristematic apical cell." ;
+    skos:exactMatch <http://purl.obolibrary.org/obo/PO_0025073> ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "individual-branch" ;
+    skos:prefLabel "plant branch individual"@en ;
+    schema:url "https://github.com/ternaustralia/feature-types-vocab/tree/main/vocab_files/plant-branch-individual.ttl"^^xsd:anyURI ;
+.
+

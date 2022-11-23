@@ -1,0 +1,20 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://linked.data.gov.au/def/tern-cv/05dac53a-269c-4699-9673-bf99a9406b14>
+    a skos:Concept ;
+    dcterms:created "2022-03-01T01:52:56"^^xsd:dateTime ;
+    dcterms:description "Human-defined region for business purposes such as allocated for mineral exploitation, or reserved for nature preservation or zoned for suburbs"@en ;
+    dcterms:modified "2022-03-01T01:56:17"^^xsd:dateTime ;
+    dcterms:source "BDR feature types."@en ;
+    skos:definition "A region of the earth's surface, terrestrial or marine or mixed, that is defined for human purposes."@en ;
+    skos:example "Tom Price Mine, Kakadu National Park, Southern Kangaroo Island Marine Park, Shorncliffe (suburb of Brisbane), New South Wales, Meshblock 11234 (ABS census region)"@en ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "administrative-area" ;
+    skos:prefLabel "administrative area"@en ;
+    skos:topConceptOf <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    schema:url "https://github.com/ternaustralia/feature-types-vocab/tree/main/vocab_files/administrative-area.ttl"^^xsd:anyURI ;
+.
+

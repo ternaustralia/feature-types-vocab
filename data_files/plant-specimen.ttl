@@ -1,0 +1,20 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://linked.data.gov.au/def/tern-cv/2e122e23-881c-43fa-a921-a8745f016ceb>
+    a skos:Concept ;
+    dcterms:description "Plant specimens usually are dried and mounted on a sheet of paper, but they may also be stored in boxes or kept in liquid preservatives. Plant specimens may be used for identification purposes, morphometrics, plant taxonomy and nomenclature, and the study of geographic distribution of plants." ;
+    dcterms:modified "2021-06-17T01:57:04"^^xsd:dateTime ;
+    dcterms:source "Heberling, J. Mason, L. Alan Prather, and Stephen J. Tonsor. The changing uses of herbarium data in an era of global change: An overview using automated content analysis. BioScience 69.10 (2019): 812-822." ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/2be2d5ce-ca9d-4dff-8e79-948983944f95> ;
+    skos:closeMatch <http://rs.tdwg.org/dwc/terms/PreservedSpecimen> ;
+    skos:definition "A plant specimen is a part of an individual plant preserved, usually in a herbarium sheet." ;
+    skos:example "A vouchered sample of an individual plant preserved in a herbarium sheet." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "plant-specimen" ;
+    skos:prefLabel "plant specimen" ;
+    schema:url "https://github.com/ternaustralia/feature-types-vocab/tree/main/vocab_files/plant-specimen.ttl"^^xsd:anyURI ;
+.
+

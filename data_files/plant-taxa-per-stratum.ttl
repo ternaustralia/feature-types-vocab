@@ -1,0 +1,18 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://linked.data.gov.au/def/tern-cv/972669a7-8a3c-4bd6-9d24-04606fcdd773>
+    a skos:Concept ;
+    dcterms:created "2022-03-10T05:57:00"^^xsd:dateTime ;
+    dcterms:modified "2022-03-14T05:19:23"^^xsd:dateTime ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/32834f36-a478-45be-97f4-ff2ff51e9f5c> ;
+    skos:definition "TBD" ;
+    skos:description "TBD" ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "plant-taxa-per-stratum" ;
+    skos:prefLabel "plant taxa per stratum"@en ;
+    schema:url "https://github.com/ternaustralia/feature-types-vocab/tree/main/vocab_files/plant-taxa-per-stratum.ttl"^^xsd:anyURI ;
+.
+

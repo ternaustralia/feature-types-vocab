@@ -1,0 +1,17 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://linked.data.gov.au/def/tern-cv/6fb57064-7198-4df9-bf7c-86b73f69da66>
+    a skos:Concept ;
+    dcterms:created "2021-04-09T00:32:52"^^xsd:dateTime ;
+    dcterms:modified "2021-04-22T01:45:38"^^xsd:dateTime ;
+    owl:deprecated true ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "subsite"@en ;
+    skos:topConceptOf <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    schema:url "https://github.com/ternaustralia/feature-types-vocab/tree/main/vocab_files/subsite.ttl"^^xsd:anyURI ;
+.
+

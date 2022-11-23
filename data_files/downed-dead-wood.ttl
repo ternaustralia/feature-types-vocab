@@ -1,0 +1,20 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://linked.data.gov.au/def/tern-cv/1d21f4a5-996b-405a-a6f6-2e6fff1035fe>
+    a skos:Concept ;
+    dcterms:created "2022-05-17T03:40:34"^^xsd:dateTime ;
+    dcterms:modified "2022-08-26T05:29:24"^^xsd:dateTime ;
+    dcterms:source <https://www.nrs.fs.fed.us/fia/topics/dwm/glossary/> ;
+    owl:deprecated true ;
+    skos:altLabel "downed woody material" ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/a8b1a7fb-b479-48ff-b706-b3cc4691710b> ;
+    skos:definition "Woody pieces of trees and shrubs that have been uprooted (no longer supporting growth) or severed from their root system, not self-supporting, and are lying on the ground."@en ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "downed dead wood"@en ;
+    schema:url "https://github.com/ternaustralia/feature-types-vocab/tree/main/vocab_files/downed-dead-wood.ttl"^^xsd:anyURI ;
+.
+

@@ -1,0 +1,18 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://linked.data.gov.au/def/tern-cv/699b7fcb-6816-4f2a-9f2f-72b8a913f1d0>
+    a skos:Concept ;
+    dcterms:created "2022-09-19T03:07:43"^^xsd:dateTime ;
+    dcterms:description "Dead plant material (leaves, bark, needles, and twigs) that have fallen to the ground in a specific sampled space." ;
+    dcterms:modified "2022-09-30T03:40:07"^^xsd:dateTime ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/e6ed6e58-5916-4d31-9ed5-109ab3436fce> ;
+    skos:definition "Dead plant material (not wood) that have fallen to the ground in a sampled contiguous community of plants." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "stand-plant-litter" ;
+    skos:prefLabel "stand plant litter"@en ;
+    schema:url "https://github.com/ternaustralia/feature-types-vocab/tree/main/vocab_files/stand-plant-litter.ttl"^^xsd:anyURI ;
+.
+

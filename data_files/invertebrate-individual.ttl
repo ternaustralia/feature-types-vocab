@@ -1,0 +1,18 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://linked.data.gov.au/def/tern-cv/b123913b-d601-4777-9298-7576c44879d2>
+    a skos:Concept ;
+    dcterms:created "2022-08-23T01:35:59"^^xsd:dateTime ;
+    dcterms:description "A single invertebrate individual (animals that neither possess nor develop a vertebral column. Operationally, in some cases superorganisms or colonies (e.g. corals) may be considered a special kind of individual." ;
+    dcterms:modified "2022-09-06T00:04:32"^^xsd:dateTime ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/ecb855ed-50e1-4299-8491-861759ef40b7> ;
+    skos:definition "An existence of an invertebrate sampled at a particular place at a particular time." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "invertebrate-individual" ;
+    skos:prefLabel "invertebrate individual"@en ;
+    schema:url "https://github.com/ternaustralia/feature-types-vocab/tree/main/vocab_files/invertebrate-individual.ttl"^^xsd:anyURI ;
+.
+

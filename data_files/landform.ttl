@@ -1,0 +1,20 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://linked.data.gov.au/def/tern-cv/2cf3ed29-440e-4a50-9bbc-5aab30df9fcd>
+    a skos:Concept ;
+    dcterms:created "2021-02-25T01:34:44"^^xsd:dateTime ;
+    dcterms:description "The whole land surface is viewed as a mosaic of tiles of odd shapes and two sizes. The larger size is composed of mosaics of the smaller ones. Larger tiles (> 600 m across) are called landform patterns. Smaller tiles (~40m across) are called landform elements." ;
+    dcterms:modified "2021-06-17T01:39:14"^^xsd:dateTime ;
+    dcterms:source "Speight, Johan Garry. Landform. Australian soil and land survey field handbook (1990): 9-57." ;
+    skos:definition "Visible features of an area of land, including the physical elements of it soils, landforms (LandSurface Feature) , geology (GeologicFeature), water bodies (StreamChannel Feature), living elements of land cover (VegetationFeature), human elements (LandUse Feature) and transitory elements (Climate Feature)." ;
+    skos:example "Landsurface Features such as mountains and hills. StreamChannel Features such as rivers, lakes and ponds. LandUse Features including different forms of land use, buildings and structures. Climate Fature such as lighting and weather conditions." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "landform" ;
+    skos:prefLabel "landform"@en ;
+    skos:topConceptOf <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    schema:url "https://github.com/ternaustralia/feature-types-vocab/tree/main/vocab_files/landform.ttl"^^xsd:anyURI ;
+.
+

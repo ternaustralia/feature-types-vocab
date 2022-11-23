@@ -1,0 +1,21 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://linked.data.gov.au/def/tern-cv/e6ed6e58-5916-4d31-9ed5-109ab3436fce>
+    a skos:Concept ;
+    dcterms:created "2021-04-20T03:43:43"^^xsd:dateTime ;
+    dcterms:description "Decomposition causes a decrease in plant detrital mass through leaching, fragmentation, and chemical alteration of dead plant material. Plant material is converted to other organic compounds, and ultimately to inorganic nutrients and CO2 (Chapin III et al., 2011)." ;
+    dcterms:modified "2021-07-12T04:59:59"^^xsd:dateTime ;
+    dcterms:source "Chapin III, F. Stuart, Pamela A. Matson, and Peter Vitousek. Principles of terrestrial ecosystem ecology. Springer Science & Business Media, 2011." ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/2be2d5ce-ca9d-4dff-8e79-948983944f95> ;
+    skos:closeMatch <http://vocabs.lter-europe.net/EnvThes/20955> ;
+    skos:definition "Decayed plant residues (i.e. wood, leaf or root) and related characteristics." ;
+    skos:example "Leaf litter decomposition, coarse woody debris mass, fine woody debris production." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "plant-litter" ;
+    skos:prefLabel "plant litter"@en ;
+    schema:url "https://github.com/ternaustralia/feature-types-vocab/tree/main/vocab_files/plant-litter.ttl"^^xsd:anyURI ;
+.
+

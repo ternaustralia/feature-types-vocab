@@ -1,0 +1,18 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://linked.data.gov.au/def/tern-cv/5ba6ba64-cf48-4c1e-93e5-3892c2b92f4b>
+    a skos:Concept ;
+    dcterms:created "2022-08-22T00:28:37"^^xsd:dateTime ;
+    dcterms:description "A physiological independent fish individual (i.e. aquatic, gill-bearing animal)." ;
+    dcterms:modified "2022-09-06T00:04:17"^^xsd:dateTime ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/ecb855ed-50e1-4299-8491-861759ef40b7> ;
+    skos:definition "Physiologically distinct and independent organism (aquatic, gill-bearing animal)." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "fish-individual" ;
+    skos:prefLabel "fish individual"@en ;
+    schema:url "https://github.com/ternaustralia/feature-types-vocab/tree/main/vocab_files/fish-individual.ttl"^^xsd:anyURI ;
+.
+

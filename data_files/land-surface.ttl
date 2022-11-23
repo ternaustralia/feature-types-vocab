@@ -1,0 +1,21 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://linked.data.gov.au/def/tern-cv/8282fb22-4135-415c-8ca2-317860d102fb>
+    a skos:Concept ;
+    dcterms:created "2021-02-25T01:11:44"^^xsd:dateTime ;
+    dcterms:descrition "Most of the attributes for land surface deal with its physical properties (e.g. aspect, elevation). Some other reflect properties within (e.g. microrelief). Some attributes reflect the influence of present or past land use practice (e.g. disturbance of site, erosion)." ;
+    dcterms:modified "2021-06-17T01:37:36"^^xsd:dateTime ;
+    dcterms:source "McDonald, R. C., R. F. Isbell, and J. G. Speight. Land surface. (1985)." ;
+    skos:definition "Surface layer of Earth which is primarily composed of solid material and is not covered by oceans or other bodies of water." ;
+    skos:exactMatch <http://purl.obolibrary.org/obo/ENVO_01001785> ;
+    skos:example "Elevation, slope, microrelief, erosion, inundation." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "land-surface" ;
+    skos:prefLabel "land surface"@en ;
+    skos:topConceptOf <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    schema:url "https://github.com/ternaustralia/feature-types-vocab/tree/main/vocab_files/land-surface.ttl"^^xsd:anyURI ;
+.
+

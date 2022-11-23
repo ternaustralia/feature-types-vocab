@@ -1,0 +1,19 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://linked.data.gov.au/def/tern-cv/45a73139-f6bf-47b7-88d4-4b2865755545>
+    a skos:Concept ;
+    dcterms:created "2021-12-16T04:48:41"^^xsd:dateTime ;
+    dcterms:description "A fungal occurrence is a sample of a fungi at a particular point and time." ;
+    dcterms:modified "2022-02-09T01:38:34"^^xsd:dateTime ;
+    skos:closeMatch <http://rs.tdwg.org/dwc/terms/Occurrence> ;
+    skos:definition "An existence of a fungi sampled at a particular place at a particular time." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "fungal-occurrence" ;
+    skos:prefLabel "fungal occurrence"@en ;
+    skos:topConceptOf <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    schema:url "https://github.com/ternaustralia/feature-types-vocab/tree/main/vocab_files/fungal-occurrence.ttl"^^xsd:anyURI ;
+.
+

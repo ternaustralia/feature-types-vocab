@@ -1,0 +1,17 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://linked.data.gov.au/def/tern-cv/a1523a81-8865-401e-8ae6-c9bd26faee02>
+    a skos:Concept ;
+    dcterms:created "2022-05-17T03:40:34"^^xsd:dateTime ;
+    dcterms:modified "2022-08-26T05:28:45"^^xsd:dateTime ;
+    dcterms:source <https://www.nrs.fs.fed.us/fia/topics/dwm/glossary/> ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/a8b1a7fb-b479-48ff-b706-b3cc4691710b> ;
+    skos:definition "Dead branches, twigs, wood splinters 1 - 10cm in diameter."@en ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "fine woody debris"@en ;
+    schema:url "https://github.com/ternaustralia/feature-types-vocab/tree/main/vocab_files/fine-woody-debris.ttl"^^xsd:anyURI ;
+.
+

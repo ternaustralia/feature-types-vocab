@@ -1,0 +1,18 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://linked.data.gov.au/def/tern-cv/c4e95889-9205-432f-9748-e83966e742c9>
+    a skos:Concept ;
+    dcterms:created "2022-08-15T06:19:57"^^xsd:dateTime ;
+    dcterms:description "A reptile occurrence is a sample of a reptile or group of reptiles (class Reptilia) at a particular point and time. A reptile occurrence may not specifically relate to a specific reptile individual, but provides a sample which may come from an individual or a group." ;
+    dcterms:modified "2022-08-19T00:51:41"^^xsd:dateTime ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/2361dea8-598c-4b6f-a641-2b98ff199e9e> ;
+    skos:definition "An existence of reptile sampled at a particular place at a particular time." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "reptile-occurrence" ;
+    skos:prefLabel "reptile occurrence"@en ;
+    schema:url "https://github.com/ternaustralia/feature-types-vocab/tree/main/vocab_files/reptile-occurrence.ttl"^^xsd:anyURI ;
+.
+

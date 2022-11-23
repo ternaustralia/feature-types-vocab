@@ -1,0 +1,18 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://linked.data.gov.au/def/tern-cv/226a127b-7248-476a-84ad-0412a5e3af52>
+    a skos:Concept ;
+    dcterms:created "2022-08-05T04:32:59"^^xsd:dateTime ;
+    dcterms:description "A single individual from the Mammalia class." ;
+    dcterms:modified "2022-08-15T03:43:02"^^xsd:dateTime ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/ecb855ed-50e1-4299-8491-861759ef40b7> ;
+    skos:definition "Physiologically distinct and independent mammal." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "mammal-individual" ;
+    skos:prefLabel "mammal individual"@en ;
+    schema:url "https://github.com/ternaustralia/feature-types-vocab/tree/main/vocab_files/mammal-individual.ttl"^^xsd:anyURI ;
+.
+

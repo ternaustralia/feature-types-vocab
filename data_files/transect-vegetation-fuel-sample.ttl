@@ -1,0 +1,17 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://linked.data.gov.au/def/tern-cv/8cd716ed-7d4f-4c44-81ba-c921cb431962>
+    a skos:Concept ;
+    dcterms:created "2022-09-19T23:52:34"^^xsd:dateTime ;
+    dcterms:description "Dead or alive plant organic matter characteristics relevant to its flammability sampled over a transect." ;
+    dcterms:modified "2022-09-20T00:03:50"^^xsd:dateTime ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/df7fd606-8145-4206-b66e-b86444888802> ;
+    skos:definition "Sample of dead and alive vegetation matter relevant to its flammability using a transect." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "transect vegetation fuel sample"@en ;
+    schema:url "https://github.com/ternaustralia/feature-types-vocab/tree/main/vocab_files/transect-vegetation-fuel-sample.ttl"^^xsd:anyURI ;
+.
+

@@ -1,0 +1,22 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://linked.data.gov.au/def/tern-cv/afc81cca-9122-4e36-823d-31dd765e9257>
+    a skos:Concept ;
+    dcterms:created "2021-02-26T05:11:16"^^xsd:dateTime ;
+    dcterms:description "Geological substrates are materials and masses of earth or rock that do not show pedological development. They are not soils, but typically underlie them. The geological substrate includes the R horizon (continuous masses of rock, excluding pans, e.g. bedrock) and the part of the C horizon that shows no pedological development, but excludes the solum, buried soil horizons (including D horizons), and pans. The geological substrate beneath a soil profile may or may not be the parent material of the soil." ;
+    dcterms:modified "2021-06-17T01:36:10"^^xsd:dateTime ;
+    dcterms:source
+        "McDonald, R.C., Isbell, R.F., Speight, J.G., Walker, J. and Hopkins, M.S., 1998. Australian soil and land survey: field handbook (No. Ed. 2). CSIRO publishing." ,
+        "Valentine, P.C., 2019, Sediment classification and the characterization, identification, and mapping of geologic substrates for the glaciated Gulf of Maine seabed and other terrains, providing a physical framework for ecological research and seabed management: U.S. Geological Survey Scientific Investigations Report 2019–5073, 37 p., https://doi.org/10.3133/sir20195073." ;
+    skos:definition "Surface (or volume) of sediment or rock where physical, chemical, and biological processes occur, such as the movement and deposition of sediment, the formation of bedforms, and the attachment, burrowing, feeding, reproduction, and sheltering of organisms." ;
+    skos:example "By origin sedimentary, igneous, metamorphic. By chemical composition alluvium, sandstone, carbonate" ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "geologic-substrate" ;
+    skos:prefLabel "geologic substrate"@en ;
+    skos:topConceptOf <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    schema:url "https://github.com/ternaustralia/feature-types-vocab/tree/main/vocab_files/geologic-substrate.ttl"^^xsd:anyURI ;
+.
+

@@ -1,0 +1,18 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://linked.data.gov.au/def/tern-cv/edebcd9a-a42e-49ba-a629-056cb1a7ba73>
+    a skos:Concept ;
+    dcterms:created "2022-09-19T23:25:46"^^xsd:dateTime ;
+    dcterms:description "Dead or alive plant organic matter characteristics relevant to its flammability, sampled in a define area." ;
+    dcterms:modified "2022-09-30T03:37:11"^^xsd:dateTime ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/df7fd606-8145-4206-b66e-b86444888802> ;
+    skos:definition "Dead and alive vegetation matter relevant to its flammability sampled in a define area." ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "stand-vegetation-fuel" ;
+    skos:prefLabel "stand vegetation fuel"@en ;
+    schema:url "https://github.com/ternaustralia/feature-types-vocab/tree/main/vocab_files/stand-vegetation-fuel.ttl"^^xsd:anyURI ;
+.
+

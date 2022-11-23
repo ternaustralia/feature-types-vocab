@@ -1,0 +1,21 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://linked.data.gov.au/def/tern-cv/ae71c3f6-d430-400f-a1d4-97a333b4ee02>
+    a skos:Concept ;
+    dcterms:created "2021-02-01T04:29:24"^^xsd:dateTime ;
+    dcterms:description "Collection of individuals belonging to the same species, living in the same area (Silvertown and Charlesworth 2001). In practice, the focal set of individuals and the spatial scale of the populations has to be define." ;
+    dcterms:modified "2021-10-06T23:59:31"^^xsd:dateTime ;
+    dcterms:source "Silvertown, Jonathan, and Deborah Charlesworth. Introduction to plant population biology. John Wiley & Sons, 2009." ;
+    skos:broadMatch <http://vocabs.lter-europe.net/EnvThes/20715> ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/2be2d5ce-ca9d-4dff-8e79-948983944f95> ;
+    skos:definition "Group of individuals of the same plant species living within a given area." ;
+    skos:example "A population of Corymbia clarksoniana, 20 individuals of Taraxacum officinalis" ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:notation "plant-population" ;
+    skos:prefLabel "plant population"@en ;
+    schema:url "https://github.com/ternaustralia/feature-types-vocab/tree/main/vocab_files/plant-population.ttl"^^xsd:anyURI ;
+.
+

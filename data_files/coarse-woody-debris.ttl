@@ -1,0 +1,17 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://linked.data.gov.au/def/tern-cv/c001183f-c6b5-4162-8de9-0c7ed0eb3bfe>
+    a skos:Concept ;
+    dcterms:created "2022-05-17T03:40:34"^^xsd:dateTime ;
+    dcterms:modified "2022-08-26T05:35:20"^^xsd:dateTime ;
+    dcterms:source <https://www.nrs.fs.fed.us/fia/topics/dwm/glossary/> ;
+    skos:broader <http://linked.data.gov.au/def/tern-cv/a8b1a7fb-b479-48ff-b706-b3cc4691710b> ;
+    skos:definition "Dead pieces of wood (diameter >10cm) including downed, dead tree and shrub boles, large limbs, and other woody pieces that are severed from their original source of growth."@en ;
+    skos:inScheme <http://linked.data.gov.au/def/tern-cv/68af3d25-c801-4089-afff-cf701e2bd61d> ;
+    skos:prefLabel "coarse woody debris"@en ;
+    schema:url "https://github.com/ternaustralia/feature-types-vocab/tree/main/vocab_files/coarse-woody-debris.ttl"^^xsd:anyURI ;
+.
+
